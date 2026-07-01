@@ -24,6 +24,7 @@ venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb_checkpoints/
 
 # Virtual Environments
 .venv
@@ -39,3 +40,10 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignore data files
+data/*.csv
+data/*.txt
+data/*.zip
+data/*.tar.gz
+data/*.parquet
