@@ -1,0 +1,11 @@
+# Normalize line endings
+* text=auto
+
+# Jupyter notebooks — treat as text for diffs
+*.ipynb text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# CSV small summary files tracked normally
+*.csv text eol=lf

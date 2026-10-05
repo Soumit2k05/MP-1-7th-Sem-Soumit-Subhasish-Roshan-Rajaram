@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv
+env/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Raw data (too large for git) ────────────────────────────────────────────
+recovered_data.csv
+
+# ── Large intermediate CSVs (tracked via research_artifacts/ summaries) ─────
+research_artifacts/03_preprocessing/model_ready.csv
+research_artifacts/04_experimental_protocol/experiment_manifest.csv
+
+# ── Legacy intermediate data files ──────────────────────────────────────────
+data/*.csv
+data/*.txt
+data/*.zip
+data/*.tar.gz
+data/*.parquet
+bdg2_*.csv
